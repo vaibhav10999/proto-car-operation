@@ -143,17 +143,6 @@ export default function InputBar({ onSend, disabled = false }: InputBarProps) {
           <MaterialIcon name="arrow_upward" size={18} color={active && !disabled ? '#fff' : C24.textMuted} weight={600} />
         </button>
       </div>
-      <p
-        style={{
-          textAlign: 'center',
-          fontSize: 10.5,
-          color: C24.textMuted,
-          margin: '6px 0 0',
-          letterSpacing: -0.05,
-        }}
-      >
-        Orbit can make mistakes · always verify before booking
-      </p>
     </div>
   )
 }

@@ -130,7 +130,7 @@ export default function ModeSwitcher({ mode, onChange, compact = false, darkBg =
       >
         {/* Always white so sparkle is visible on any blue/coloured surface */}
         <OrbitMark size={13} white />
-        Chat
+        Orbit AI
         {/* Dot indicator when inactive on dark bg — signals "something here" */}
         {chatInactive && darkBg && (
           <span style={{

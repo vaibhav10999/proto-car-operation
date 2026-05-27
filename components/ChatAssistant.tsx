@@ -10,6 +10,7 @@ import UserBubble from '@/components/chat/UserBubble'
 import BotMessage from '@/components/chat/BotMessage'
 import ThinkingPill from '@/components/chat/ThinkingPill'
 import InspectionScanPill from '@/components/chat/InspectionScanPill'
+import QuickChips from '@/components/chat/QuickChips'
 import InputBar from '@/components/chat/InputBar'
 import { parseResponse } from '@/lib/parseResponse'
 import { C24 } from '@/components/tokens'
@@ -241,6 +242,17 @@ export default function ChatAssistant({ mode, onModeChange }: ChatAssistantProps
           </div>
         )}
       </div>
+
+      {/* ── QUICK CHIPS — only on empty state, pinned above input ── */}
+      {messages.length === 0 && (
+        <div style={{
+          flexShrink: 0,
+          borderTop: `0.5px solid ${C24.border}`,
+          background: '#fff',
+        }}>
+          <QuickChips onSend={sendMessage} />
+        </div>
+      )}
 
       {/* ── INPUT + BOTTOM NAV (in flow at bottom) ── */}
       <div style={{

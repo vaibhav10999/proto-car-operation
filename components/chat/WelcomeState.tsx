@@ -102,36 +102,6 @@ export default function WelcomeState({ onSend, hub }: WelcomeStateProps) {
         )}
       </button>
 
-      {/* Quick chips — single scrollable row */}
-      <div style={{ width: '100%', marginBottom: 20 }}>
-        <div style={{ display: 'flex', gap: 8, overflowX: 'auto', paddingBottom: 2 }}>
-          {CHIPS.map(label => (
-            <button
-              key={label}
-              onClick={() => onSend(CHIP_MESSAGES[label] || label)}
-              style={{
-                flexShrink: 0,
-                display: 'inline-flex',
-                alignItems: 'center',
-                background: '#fff',
-                border: `1.5px solid ${C24.border}`,
-                borderRadius: 999,
-                padding: '8px 15px',
-                cursor: 'pointer',
-                fontFamily: 'var(--font-inter), system-ui, sans-serif',
-                fontSize: 13,
-                fontWeight: 600,
-                color: C24.text,
-                letterSpacing: -0.1,
-                whiteSpace: 'nowrap',
-              }}
-            >
-              {label}
-            </button>
-          ))}
-        </div>
-      </div>
-
       {/* Shortcuts */}
       <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 10, width: '100%' }}>
         <button
