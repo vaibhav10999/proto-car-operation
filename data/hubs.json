@@ -1,0 +1,39 @@
+[
+  {
+    "id": "noida-sec18",
+    "name": "Cars24 Sector 18, Noida",
+    "shortName": "Sector 18",
+    "distance": "0.2 km",
+    "availableCars": 44,
+    "isNearest": true,
+    "lat": 28.5708,
+    "lng": 77.3260
+  },
+  {
+    "id": "gaur-city",
+    "name": "Cars24 Gaur City, Greater Noida",
+    "shortName": "Gaur City",
+    "distance": "4.1 km",
+    "availableCars": 31,
+    "lat": 28.6129,
+    "lng": 77.4308
+  },
+  {
+    "id": "ghaziabad",
+    "name": "Cars24 Hub, Ghaziabad",
+    "shortName": "Ghaziabad",
+    "distance": "8.5 km",
+    "availableCars": 28,
+    "lat": 28.6692,
+    "lng": 77.4538
+  },
+  {
+    "id": "dlf-saket",
+    "name": "Cars24 DLF Mall, Saket",
+    "shortName": "Saket",
+    "distance": "28 km",
+    "availableCars": 52,
+    "lat": 28.5245,
+    "lng": 77.2066
+  }
+]

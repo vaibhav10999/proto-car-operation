@@ -1,0 +1,35 @@
+{
+  "hubName": "Cars24 Sector 18, Noida",
+  "hubId": "noida-sec18",
+  "totalCars": 47,
+  "availableCars": 44,
+  "generalStats": {
+    "mostPopularBrand": "Hyundai",
+    "mostPopularBodyType": "SUV",
+    "mostPopularTransmission": "Automatic",
+    "fastestMovingSegment": "Hatchback under ₹8 lakh",
+    "avgDaysOnLot": 12
+  },
+  "budgetInsights": {
+    "under_5L": "Under ₹5 lakh, the Renault Kwid and Maruti S-Presso are the most shortlisted budget picks here.",
+    "5L_to_8L": "In the ₹5–8 lakh range, automatic hatchbacks are the most test-driven segment. The Hyundai i20 and Maruti Baleno lead shortlists this week.",
+    "8L_to_12L": "Between ₹8–12 lakh, compact SUVs are getting the most interest — the Tata Nexon and Hyundai Venue are top picks.",
+    "above_12L": "Above ₹12 lakh, the Kia Seltos and Hyundai Creta SX(O) Turbo are seeing strong demand."
+  },
+  "bodyTypeInsights": {
+    "hatchback": "Hatchbacks are the fastest-moving cars at this hub. Automatics tend to get test-driven 40% more than manuals.",
+    "sedan": "Sedans are steady movers — the Honda City and Hyundai Verna are the most viewed in this segment.",
+    "suv": "SUVs are the most searched body type. Compact SUVs under ₹12 lakh dominate. The Tata Nexon has been test-driven 14 times in the last 14 days.",
+    "muv": "MPVs like the Maruti Ertiga are popular with family buyers — especially the CNG variant for lower running costs."
+  },
+  "transmissionInsights": {
+    "automatic": "Automatic cars get significantly more test drives at this hub. Most buyers here are city commuters who prefer convenience over cost.",
+    "manual": "Manual cars offer better value — typically ₹1–1.5 lakh less than equivalent automatics."
+  },
+  "weeklyHighlights": [
+    "Tata Nexon XZA+ has been test-driven 14 times this week — the most of any car at this hub",
+    "Hyundai i20 Sportz Automatic is getting consistent shortlists from city commute buyers",
+    "Maruti Baleno Alpha (Automatic) was the most test-driven hatchback last week",
+    "Kia Seltos GTX+ had 3 buyers make purchase enquiries after test drives this week"
+  ]
+}

@@ -1,0 +1,31 @@
+export const C24 = {
+  blue: '#0071BC',
+  blueDark: '#005a96',
+  blueDeep: '#0E1F8A',
+  blueTint: '#E8EEFF',
+  orange: '#F7931E',
+  orangeDark: '#E27F00',
+  orangeTint: '#FFE9CC',
+  white: '#FFFFFF',
+  appBg: '#F5F8FA',
+  cardTintBlue: '#EEF1FA',
+  cardTintGreen: '#1F5B3A',
+  cardTintBeige: '#F3EFE2',
+  cardTintCream: '#FFF6E6',
+  text: '#0B1F2A',
+  textSecondary: '#5E6B78',
+  textMuted: '#8A94A6',
+  border: '#E5EAF0',
+  borderLight: '#EEF1F4',
+  success: '#1A9A50',
+  successTint: '#E9F7EE',
+  warning: '#F79009',
+  error: '#E5483E',
+  errorTint: '#FDECEA',
+  purple: '#5B47D6',
+  purpleTint: '#EEEAFC',
+  blueGradient: 'linear-gradient(180deg, #1A3DBE 0%, #2349D6 60%, #2C56E6 100%)',
+} as const
+
+export const ORBIT_GRADIENT = 'linear-gradient(135deg, #2BB3FF 0%, #0071BC 60%, #1A3DBE 100%)'
+export const ORBIT_GRADIENT_ID = 'orbitGrad'

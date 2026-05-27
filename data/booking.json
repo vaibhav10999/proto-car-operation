@@ -1,0 +1,11 @@
+{
+  "bookingId": "BK-2026-052801",
+  "carId": "c24-noida-nexon-001",
+  "userId": "USR-DEMO-001",
+  "status": "Booked",
+  "startPIN": "4821",
+  "bookedAt": "2026-05-28T09:30:00+05:30",
+  "hubId": "noida-sec18",
+  "slotTime": "2026-05-28T11:00:00+05:30",
+  "notes": "Demo booking for Tata Nexon XZA+ test drive"
+}
